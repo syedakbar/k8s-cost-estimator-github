@@ -64,3 +64,5 @@ steps:
           echo "** No cost increase bigger than \$ $$COST_USD_THRESHOLD USD detected. FinOps approval is NOT required in this situation!"
           echo "****************************************************************************************************************"
       fi
+  options:
+    logging: NONE
